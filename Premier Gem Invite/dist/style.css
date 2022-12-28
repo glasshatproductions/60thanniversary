@@ -1,0 +1,165 @@
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --gold: #ffb338;
+  --light-shadow: #77571d;
+  --dark-shadow: #3e2904;
+}
+body {
+  margin: 0;
+}
+body {
+  background: black;
+  background-size: cover;
+  color: white;
+}
+
+
+
+h1 {
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 700;
+  margin: 0px;
+  font-size: 5.4vh;
+  text-shadow: 2px 6px 2px #000000;
+  transform: translateZ(20px);
+}
+h2 {
+
+  font-weight: 100;
+  font-size: 2vh;
+  transform: translateZ(20px);
+  margin: 10px;
+}
+h3 {
+  font-family: Pinyon Script, sans-serif;
+  font-weight: 100;
+  font-size: 5vh;
+  transform: translateZ(20px);
+  margin: 0px;
+}
+
+
+p {
+
+  font-size: 1vh;
+  margin: 170px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  width: 100%;
+  
+}
+
+.logo {
+  z-index: 9000;
+  transform: translateZ(20px);
+  align-items: center;
+   text-align: center;
+   
+ 
+}
+
+
+
+.card {
+  position: fixed;
+  height: 80vh;
+  width: 70vw;
+  transform-style: preserve-3d;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;  
+  z-index: 20;
+  border-radius: 0px;
+  border: 0px solid #73735a; 
+  
+}
+button {
+ 
+  position: relative;
+  border-radius: 5px;
+  border: 2px solid rgb(71, 71, 71);
+  border: 2px solid #73735a;  
+  background-color: rgb(0, 0, 0);
+  color: rgb(181, 173, 120);
+  padding: 15px 32px;
+  font-size: 16px;  
+  z-index: 20;
+  transform-style: preserve-3d;
+  transform: translateZ(20px);
+
+}
+
+
+
+.card .bg {
+ 
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url('https://pgcs3.s3.us-east-2.amazonaws.com/tilt-hover-effect/Champagne+Gems.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
+#confetti{
+	
+	height: 100%;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: -1;
+}
+
+
+
+.wrappers {
+  background: radial-gradient(#272727, #1b1b1b);
+  display: grid;
+  grid-template-areas: 'overlap';
+  place-content: center;
+  text-transform: uppercase;
+  height: 0vh;
+}
+.wrappers > div {
+  background-clip: text;  
+  -webkit-background-clip: text;
+  color: #363833;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: clamp( 3em, 18vw, 15rem);
+  grid-area: overlap;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 4px transparent;
+}
+div.bg {
+  background-image: repeating-linear-gradient( 105deg, 
+    var(--gold) 0% , 
+    var(--dark-shadow) 5%,
+    var(--gold) 12%);
+  color: transparent;
+  filter: drop-shadow(5px 15px 15px black);
+  transform: scaleY(1.05);
+  transform-origin: top;
+}
+div.fg{
+  background-image: repeating-linear-gradient( 5deg,  
+    var(--gold) 0% , 
+    var(--light-shadow) 23%, 
+    var(--gold) 31%);
+  color: #1e2127;
+  transform: scale(1);
+}
