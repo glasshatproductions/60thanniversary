@@ -12,7 +12,7 @@
     speed: 1400,
     glare: true,
     maxGlare: 0.0,
-    scale: 1.03
+    scale: 1.04
     
   });
   
