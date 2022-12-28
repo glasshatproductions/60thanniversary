@@ -22,24 +22,24 @@ body {
 h1 {
   font-family: adobe-garamond-pro, serif;
   font-weight: 700;
-  margin: 0px;
+  margin: 10px;
   font-size: 5.4vh;
-  text-shadow: 2px 6px 2px #000000;
+  text-shadow: 2px 2px 6px #000000;
   transform: translateZ(20px);
 }
 h2 {
-
-  font-weight: 100;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 50;
   font-size: 2vh;
   transform: translateZ(20px);
-  margin: 10px;
+  margin: 20px;
 }
 h3 {
   font-family: Pinyon Script, sans-serif;
   font-weight: 100;
   font-size: 5vh;
   transform: translateZ(20px);
-  margin: 0px;
+  margin: -5px;
 }
 
 
@@ -63,7 +63,7 @@ p {
   transform: translateZ(20px);
   align-items: center;
    text-align: center;
-   
+   margin: 60px;
  
 }
 

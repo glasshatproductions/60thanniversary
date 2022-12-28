@@ -7,12 +7,13 @@
 
   $(".card").tilt({
     maxTilt: 14,
-    perspective: 1200,
+    perspective: 1100,
     easing: "cubic-bezier(.03,.98,.52,.99)",
-    speed: 9200,
+    speed: 1400,
     glare: true,
     maxGlare: 0.0,
-    scale: 1.04
+    scale: 1.03
+    
   });
   
   $(".button").on("click", function() {
