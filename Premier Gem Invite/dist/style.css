@@ -16,6 +16,11 @@ body {
   background-size: cover;
   color: white;
 }
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url('https://github.com/glasshatproductions/60thanniversary/blob/main/Premier%20Gem%20Invite/dist/Champagne1920.png?raw=true');
+  }
+}
 
 
 
